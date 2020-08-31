@@ -1,0 +1,46 @@
+<div id="container-instructions">
+
+    <h1>Instructions</h1>
+
+    <hr />
+
+    <div class="instructions well">
+
+        <video width ="600" height ="600" autoplay>
+            <source src = 'https://spacetopvids.s3.us-east-2.amazonaws.com/scan_1_lion_cubs_meet_dad.mp4-00.00.00.000-00.01.00.765.mp4' type = "video/mp4">
+            Your browser does not support the video tag. Please exit the HIT now.
+        </video>
+
+        <p><strong>In relation to the previous video how ENGAGED do you feel</strong></p>
+
+        <input type="range" id="slider" name="slider"
+                min="0" max="100">
+        <label for="slider" class="float-left">Barely at all</label>
+        <label for="slider" class="float-right">Strongest imaginable</label>
+
+        <script type="text/javascript">
+        //console.log(psiTurk.getInstructionIndicator())
+        </script>
+
+    </div>
+
+    <hr />
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+                <button type="button" id="prev" value="prev" class="btn btn-primary btn-lg previous">
+                <span class="glyphicon glyphicon-arrow-left"></span> Previous
+                </button>
+            </div>
+            <div class="col-xs-8">
+            </div>
+            <div class="col-xs-2">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
+                Next <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
